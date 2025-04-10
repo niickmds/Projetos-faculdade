@@ -1,0 +1,77 @@
+.root {
+    -fx-background-color: #f5f5f5;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.text-field, .text-area {
+    -fx-font-size: 16px;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 40px;
+    -fx-background-radius: 5px;
+    -fx-border-width: 2px;
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 40px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #ccc;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+}
+
+.button:hover {
+    -fx-background-color: #3e8e41;
+}
+
+#inserirButton, #removerButton, #listarButton {
+    -fx-background-color: #1565c0;
+}
+
+#inserirButton:hover, #removerButton:hover, #listarButton:hover {
+    -fx-background-color: #1976d2;
+}
+
+#sairButton {
+    -fx-background-color: #f44336;
+}
+
+#sairButton:hover {
+    -fx-background-color: #d32f2f;
+}
+
+#buscarButton {
+    -fx-background-color: #FFEB3B;
+    -fx-text-fill: black;
+}
+
+#buscarButton:hover {
+    -fx-background-color: #FDD835;
+}
+
+#gravarButton {
+    -fx-background-color: #800080;
+}
+
+#gravarButton:hover {
+    -fx-background-color: #9932CC;
+}
+
+#lerButton {
+    -fx-background-color: #800080;
+}
+
+#lerButton:hover {
+    -fx-background-color: #9932CC;
+}
+
+.vbox {
+    -fx-padding: 20px;
+    -fx-spacing: 20px;
+}
